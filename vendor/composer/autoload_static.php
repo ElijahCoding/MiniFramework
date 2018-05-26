@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitca1508cf6129ca0bb700bec6c4266e82
 {
     public static $prefixLengthsPsr4 = array (
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -14,6 +18,10 @@ class ComposerStaticInitca1508cf6129ca0bb700bec6c4266e82
     );
 
     public static $prefixDirsPsr4 = array (
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
